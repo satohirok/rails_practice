@@ -1,0 +1,8 @@
+# Rails — log / tmp
+backend/log/*
+!backend/log/.keep
+backend/tmp/*
+!backend/tmp/.keep
+backend/tmp/cache/
+backend/tmp/pids/
+backend/tmp/sockets/
