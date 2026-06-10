@@ -20,3 +20,17 @@ Processing by Rails::WelcomeController#index as HTML
 Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
 
 
+Started GET "/" for 172.25.0.1 at 2026-06-10 06:20:09 +0000
+Processing by ApplicationController#hello as HTML
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/favicon.ico" for 172.25.0.1 at 2026-06-10 06:20:09 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+Started GET "/" for 172.25.0.1 at 2026-06-10 06:22:10 +0000
+Processing by ApplicationController#hello as HTML
+Completed 200 OK in 1ms (Views: 0.0ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
